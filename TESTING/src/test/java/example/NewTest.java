@@ -16,7 +16,8 @@ public class NewTest {
 			String title = driver.getTitle();				 
 			Assert.assertTrue(title.contains("Demo Guru99 Page")); 		
 			System.out.println("your System is alright");
-		}	
+		
+		System.out.print("tang a gya hu");}	
 		@BeforeTest
 		public void beforeTest() {	
 			  System.setProperty("webdriver.chrome.driver","C:\\Users\\DELL\\chromedriver.exe");
