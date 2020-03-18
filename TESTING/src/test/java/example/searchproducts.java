@@ -16,7 +16,8 @@ public class searchproducts {
 	  driver.get("https://www.ebay.com/");
 	    driver.manage().window().setSize(new Dimension(1382, 744));
 	    driver.findElement(By.id("gh-ac")).click();
-	    driver.findElement(By.id("gh-ac")).sendKeys("S10");
+	   
+	    driver.findElement(By.id("gh-ac")).sendKeys("12344");
 	    driver.findElement(By.id("gh-btn")).click();
 	    String text=driver.findElement(By.cssSelector(".srp-controls__count-heading > .BOLD:nth-child(2)")).getText();
 	    String actualtext="S10";
