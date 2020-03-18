@@ -11,8 +11,9 @@ public class guru99 {
 		@Test				
 		public void testEasy() {	
 			driver.get("http://demo.guru99.com/test/guru99home/");  
-			String title = driver.getTitle();				 
-			Assert.assertTrue(title.contains("error123")); 		
+			String title = driver.getTitle();			
+			//now we are going to correct the testcase
+			Assert.assertTrue(title.contains("Demo Guru99 Page")); 		
 			
 			
 		
