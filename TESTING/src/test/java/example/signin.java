@@ -21,7 +21,7 @@ public class signin {
 	    driver.findElement(By.id("ap_password")).sendKeys("1234qwerty");
 	    driver.findElement(By.id("ap_password")).sendKeys(Keys.ENTER);
 	    // writing the right code for run the code successfully
-	    driver.findElement(By.id("signInSubmit")).click();
+	    driver.findElement(By.xpath("//*[@id=\"auth-signin-button\"]/span")).click();
 	    System.out.println("you have passed the test");
 	  //*[@id=\"continue\
   }
