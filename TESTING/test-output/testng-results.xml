@@ -1,64 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" total="1" passed="0">
+<testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="16666" started-at="2020-03-18T12:12:25Z" finished-at="2020-03-18T12:12:42Z">
+  <suite name="Default suite" duration-ms="16197" started-at="2020-03-18T12:55:11Z" finished-at="2020-03-18T12:55:28Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="16666" started-at="2020-03-18T12:12:25Z" finished-at="2020-03-18T12:12:42Z">
-      <class name="example.Amazon">
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:example.Amazon@7d68ef40]" name="beforeTest" is-config="true" duration-ms="3064" started-at="2020-03-18T05:12:25Z" finished-at="2020-03-18T05:12:28Z">
+    <test name="Default test" duration-ms="16197" started-at="2020-03-18T12:55:11Z" finished-at="2020-03-18T12:55:28Z">
+      <class name="example.signin">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:example.signin@7d68ef40]" name="beforeTest" is-config="true" duration-ms="3075" started-at="2020-03-18T05:55:11Z" finished-at="2020-03-18T05:55:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="FAIL" signature="f()[pri:0, instance:example.Amazon@7d68ef40]" name="f" duration-ms="12269" started-at="2020-03-18T05:12:29Z" finished-at="2020-03-18T05:12:41Z">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected ["S10"] but found ["Car"]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected ["S10"] but found ["Car"]
-	at org.testng.Assert.fail(Assert.java:94)
-	at org.testng.Assert.failNotEquals(Assert.java:494)
-	at org.testng.Assert.assertEquals(Assert.java:123)
-	at org.testng.Assert.assertEquals(Assert.java:176)
-	at org.testng.Assert.assertEquals(Assert.java:186)
-	at example.Amazon.f(Amazon.java:26)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
-	at org.testng.TestRunner.privateRun(TestRunner.java:767)
-	at org.testng.TestRunner.run(TestRunner.java:617)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:343)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:254)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
-	at org.testng.TestNG.run(TestNG.java:1057)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+        <test-method status="PASS" signature="f()[pri:0, instance:example.signin@7d68ef40]" name="f" duration-ms="11960" started-at="2020-03-18T05:55:14Z" finished-at="2020-03-18T05:55:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- f -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:example.Amazon@7d68ef40]" name="afterTest" is-config="true" duration-ms="1307" started-at="2020-03-18T05:12:41Z" finished-at="2020-03-18T05:12:42Z">
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:example.signin@7d68ef40]" name="afterTest" is-config="true" duration-ms="1142" started-at="2020-03-18T05:55:26Z" finished-at="2020-03-18T05:55:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-      </class> <!-- example.Amazon -->
+      </class> <!-- example.signin -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

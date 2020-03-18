@@ -22,9 +22,10 @@ public class signin {
 	    driver.findElement(By.id("ap_password")).sendKeys(Keys.ENTER);
 	    // writing the Right xpath
 	    //it will run the test succesfully
-	    driver.findElement(By.xpath("*[@id=\\\"continue\\")).click();
+	    driver.findElement(By.id("signInSubmit")).click();
+	    
 	    System.out.println("you have passed the test");
-	  
+	    
   }
   @BeforeTest
   public void beforeTest() {
