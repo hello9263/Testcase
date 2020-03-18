@@ -4,9 +4,6 @@
   <test thread-count="5" name="Test">
     <classes>
       <class name="example.Amazon"/>
-      <class name="example.NewTest"/>
-      <class name="example.searchproducts"/>
-      <class name="example.Sigin_amazon"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
