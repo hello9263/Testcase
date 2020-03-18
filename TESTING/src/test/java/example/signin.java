@@ -23,7 +23,6 @@ public class signin {
 	    // writing the right code for run the code successfully
 	    driver.findElement(By.xpath("//*[@id=\"auth-signin-button\"]/span")).click();
 	    System.out.println("you have passed the test");
-	  //*[@id=\"continue\
   }
   @BeforeTest
   public void beforeTest() {

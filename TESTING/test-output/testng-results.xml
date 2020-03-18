@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="15200" started-at="2020-03-18T13:03:54Z" finished-at="2020-03-18T13:04:09Z">
+  <suite name="Default suite" duration-ms="13186" started-at="2020-03-18T13:08:47Z" finished-at="2020-03-18T13:09:00Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="15200" started-at="2020-03-18T13:03:54Z" finished-at="2020-03-18T13:04:09Z">
+    <test name="Default test" duration-ms="13186" started-at="2020-03-18T13:08:47Z" finished-at="2020-03-18T13:09:00Z">
       <class name="example.signin">
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:example.signin@7d68ef40]" name="beforeTest" is-config="true" duration-ms="2958" started-at="2020-03-18T06:03:54Z" finished-at="2020-03-18T06:03:57Z">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:example.signin@7d68ef40]" name="beforeTest" is-config="true" duration-ms="3017" started-at="2020-03-18T06:08:47Z" finished-at="2020-03-18T06:08:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="f()[pri:0, instance:example.signin@7d68ef40]" name="f" duration-ms="11078" started-at="2020-03-18T06:03:57Z" finished-at="2020-03-18T06:04:08Z">
+        <test-method status="PASS" signature="f()[pri:0, instance:example.signin@7d68ef40]" name="f" duration-ms="8739" started-at="2020-03-18T06:08:50Z" finished-at="2020-03-18T06:08:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- f -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:example.signin@7d68ef40]" name="afterTest" is-config="true" duration-ms="1146" started-at="2020-03-18T06:04:08Z" finished-at="2020-03-18T06:04:09Z">
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:example.signin@7d68ef40]" name="afterTest" is-config="true" duration-ms="1412" started-at="2020-03-18T06:08:58Z" finished-at="2020-03-18T06:09:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
