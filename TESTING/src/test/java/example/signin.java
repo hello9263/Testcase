@@ -20,12 +20,10 @@ public class signin {
 	    driver.findElement(By.cssSelector(".a-button-inner > #continue")).click();
 	    driver.findElement(By.id("ap_password")).sendKeys("1234qwerty");
 	    driver.findElement(By.id("ap_password")).sendKeys(Keys.ENTER);
-	    // writing the Right xpath
-	    //it will run the test succesfully
+	    // writing the right code for run the code successfully
 	    driver.findElement(By.id("signInSubmit")).click();
-	    
 	    System.out.println("you have passed the test");
-	    
+	  //*[@id=\"continue\
   }
   @BeforeTest
   public void beforeTest() {
